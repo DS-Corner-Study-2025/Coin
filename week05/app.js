@@ -1,5 +1,5 @@
-const express = require('express');
-
+const express = require('express'); // 첫 줄과 두번째 줄은 그냥 암기. require 함수는 express 모듈을 가져오는 역할을 함.
+// nodejs 문법으로, import과 비슷함
 const app = express(); //express 모듈을 실행해 app 변수에 할당.
 // 이 모듈 내부에 http 모듈 내장돼서 서버 역할 가능
 app.set('port', process.env.PORT || 3000); // 서버가 실행될 포트 설정 app.set(키, 값)으로 데이터 저장
