@@ -10,3 +10,4 @@ mkdir nodebird
 cd nodebird
 npm init -y
 ```
+// 실습 추가하기
